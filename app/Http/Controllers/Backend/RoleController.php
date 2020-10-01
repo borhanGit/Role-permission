@@ -22,13 +22,28 @@ class RoleController extends Controller
 
     public function create()
     {
-        //
+        $permissions= Permission::all();
+        return view('backend.pages.role.create',[
+            'permissions'=>$permissions
+        ]);
     }
 
 
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required|unique:roles'
+    ],
+            [
+                'name.required'=>'Please give a role name'
+        ]);
+       $role =  Role::create(['name' => $request->name]);
+       $permissions = $request->input('permissions');
+       if (!empty($permissions))
+       {
+           $role->syncPermissions($permissions);
+       }
+       return back();
     }
 
 

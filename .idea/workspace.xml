@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
@@ -128,6 +131,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iDftsCCthBzyWBRRTYJbYiMCgl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -138,6 +142,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend/pages/role" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -181,7 +186,8 @@
       <workItem from="1601449271352" duration="473000" />
       <workItem from="1601449821153" duration="3110000" />
       <workItem from="1601452999858" duration="3749000" />
-      <workItem from="1601526386293" duration="8987000" />
+      <workItem from="1601526386293" duration="9543000" />
+      <workItem from="1601563782073" duration="7340000" />
     </task>
     <servers />
   </component>
@@ -189,6 +195,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1601570760715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601570760715" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1601452935507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -205,9 +215,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601452935506" />
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1601526396237">
+    <state x="303" y="76" key="SettingsEditor" timestamp="1601571130172">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1601526396237" />
+    <state x="303" y="76" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1601571130172" />
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1601563817286">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1601563817286" />
   </component>
 </project>

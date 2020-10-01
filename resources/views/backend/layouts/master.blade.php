@@ -9,6 +9,7 @@
     @include('backend.layouts.partials.style')
     <!-- modernizr css -->
     <script src="{{asset('/')}}backend/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    @yield('styles')
 </head>
 
 <body>
@@ -44,6 +45,7 @@
 <!-- offset area end -->
 <!-- jquery latest version -->
 @include('backend.layouts.partials.script')
+@yield('scripts')
 </body>
 
 </html>
